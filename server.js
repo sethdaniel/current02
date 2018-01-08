@@ -16,7 +16,6 @@ app.get('/testroute/:testvar', function(req, res) {
 });
 
 // generate addresses
-// test route
 app.get('/generateAddresses/:testvar', function(req, res) {
 
     var generateAddresses = require('./createAddresses.js');
